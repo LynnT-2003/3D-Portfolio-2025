@@ -33,28 +33,28 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="w-full h-full absolute inset-0">
+      <div className="w-full h-full pb-0 absolute inset-0">
         <Canvas className="w-full h-full">
           <Suspense fallback={<CanvasLoader />}>
             <Leva hidden />
-            <PerspectiveCamera makeDefault position={[0, 0, 30]} />
+            <PerspectiveCamera makeDefault position={[0, 0, 500]} />
 
             <HeroCamera isMobile={isMobile}>
               <HackerRoom
                 scale={sizes.deskScale}
                 position={sizes.deskPosition}
-                rotation={[0.1, -Math.PI, 0]}
+                rotation={[0.3, -Math.PI, 0]}
               />
             </HeroCamera>
 
-            <group>
+            {/* <group>
               <Target position={sizes.targetPosition} />
               <ReactLogo position={sizes.reactLogoPosition} />
               <Rings position={sizes.ringPosition} />
               <Cube position={sizes.cubePosition} />
-            </group>
+            </group> */}
 
-            <ambientLight intensity={10} />
+            <ambientLight intensity={5} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
           </Suspense>
         </Canvas>
