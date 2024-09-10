@@ -6,12 +6,12 @@ import { PerspectiveCamera } from "@react-three/drei";
 import CanvasLoader from "../components/CanvasLoader.jsx";
 import { calculateSizes } from "@/constants";
 
-import Cube from "../components/Cube.jsx";
-import Rings from "../components/Rings.jsx";
-import ReactLogo from "../components/ReactLogo.jsx";
+// import Cube from "../components/Cube.jsx";
+// import Rings from "../components/Rings.jsx";
+// import ReactLogo from "../components/ReactLogo.jsx";
 import HeroCamera from "../components/HeroCamera.jsx";
 
-import Target from "../components/Target.jsx";
+// import Target from "../components/Target.jsx";
 import HackerRoom from "../components/HackerRoom.jsx";
 
 const Hero = () => {
