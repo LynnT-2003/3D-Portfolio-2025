@@ -1,12 +1,26 @@
 import { navLinks } from "@/constants";
 import React from "react";
 
-const NavItems = ({ onClick = () => {} }) => {
+// const NavItems = ({ onClick = () => {} }) => {
+//   return (
+//     <ul className="nav-ul">
+//       {navLinks.map(({ id, href, name }) => (
+//         <li key={id} className="nav-li">
+//           <a href={href} className="nav-li_a" onClick={() => {}}>
+//             {name}
+//           </a>
+//         </li>
+//       ))}
+//     </ul>
+//   );
+// };
+
+const NavItems = () => {
   return (
     <ul className="nav-ul">
       {navLinks.map(({ id, href, name }) => (
         <li key={id} className="nav-li">
-          <a href={href} className="nav-li_a" onClick={() => {}}>
+          <a href={href} className="nav-li_a">
             {name}
           </a>
         </li>
@@ -19,7 +33,7 @@ const Navbar = () => {
   const [open, setOpen] = React.useState(false);
 
   const handleToggle = () => setOpen((prevOpen) => !prevOpen);
-  const closeMenu = () => setOpen(false);
+  // const closeMenu = () => setOpen(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
