@@ -9,7 +9,9 @@ const App = () => {
     <main className="mx-auto">
       <Navbar />
       <Hero />
-      <Projects />
+      <div className="md:px-10">
+        <Projects />
+      </div>
     </main>
   );
 };
