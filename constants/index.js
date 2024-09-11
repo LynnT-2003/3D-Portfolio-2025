@@ -240,31 +240,41 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "The Grand Dental",
+    pos: "Lead Frontend Developer",
+    duration: "2024 - Present",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+      "Primarily leading the development in the Frontend department. My role is to build and maintain the frontend of the website according to the demand from both client and designers.",
     icon: "/assets/framer.svg",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "Mahar-Vertex Real Estate",
+    pos: "Lead Frontend Developer",
+    duration: "2024 - Present",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+      "Leading the Frontend team while simultaneously working with Backend roles. My role is to build the frontend according to the designs given, and making it fully mobile-responsive.",
     icon: "/assets/figma.svg",
     animation: "clapping",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
+    name: "BehindTrader",
+    pos: "MQL5 Trading Bot Developer",
+    duration: "2024 - Present",
     title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+      "Developed an automated Expert Advisor Trading bot on MetaTrader, capable of serving concurrent clients. The bot is designed to execute buy/sell orders and trades algorithmically.",
+    icon: "/assets/figma.svg",
+    animation: "clapping",
+  },
+  {
+    id: 4,
+    name: "TBH Chatbot",
+    pos: "Full Stack Web Developer & Chatbot Developer",
+    duration: "2023 - 2024",
+    title:
+      "Singlehandedly led the development of the backend infrastructure & database design for the chatbot. Also developed dynamic web urls to showcase product details through the chatbot.",
     icon: "/assets/notion.svg",
     animation: "salute",
   },
