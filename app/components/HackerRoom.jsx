@@ -84,14 +84,12 @@
 
 // useGLTF.preload("/models/hacker-room.glb");
 
-import React, { useRef } from "react";
+import React from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
-import { MeshMatcapMaterial } from "three";
 
 const HackerRoom = (props) => {
   const { nodes, materials } = useGLTF("/models/hacker-room-final.glb");
 
-  const monitortxt = useTexture("textures/desk/monitor.png");
   const screenTxt = useTexture("textures/desk/alya_wallpapers.png");
 
   return (

@@ -7,8 +7,6 @@ import Experience from "./sections/Experience";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
-
   useEffect(() => {
     let locomotiveScroll;
 
@@ -24,7 +22,6 @@ const App = () => {
     })();
 
     setTimeout(() => {
-      setIsLoading(false);
       document.body.style.cursor = "default";
       window.scrollTo(0, 0);
     }, 2000);
