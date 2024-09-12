@@ -96,9 +96,9 @@ export const myProjects = [
   },
   {
     title: "TBHChat - A Digital Chatbot Solution for TBH-Labs",
-    desc: "TBHChat is a chatbot solution for Facebook Messenger that simplifies finding your dream smartphone by offering local prices and product recommendations. Mobile shops can easily update their prices through our CMS, ensuring users always see current information. The chatbot provides detailed specs and performance insights, helping customers make informed purchasing decisions effortlessly.",
+    desc: "TBHChat is a chatbot solution for Facebook Messenger that simplifies finding your dream smartphone by offering local prices and product recommendations. Mobile shops can easily update their prices through our CMS, ensuring that the chatbot always provides the latest specs and performance insights, helping customers make informed purchasing decisions effortlessly.",
     subdesc:
-      "Singlehandedly led and deployed dynamic frontend pages and backend infrastructure for the chatbot using NextJS & NextJS-Serverless Created and managed a database of 500+ smartphones with 17 entities each, with an admin panel dashboard Integrated Firebase Authentication for secure admin access. Contributed towards the development of the chatbot to recognize and handle 5 different intents with average response times of 2-5 seconds for each request using Glitch and Wit.AI",
+      "Singlehandedly led and deployed dynamic frontend pages and backend infrastructure for the chatbot using Next.js. Created and managed a database of 500+ smartphones with 17 entities each, with an admin panel dashboard with Firebase Authentication for secure admin access. Contributed towards the development of the chatbot to recognize and handle 5 different intents with average response times of 2-5 seconds for each request using Glitch and Wit.AI",
     href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
@@ -162,6 +162,43 @@ export const myProjects = [
         id: 3,
         name: "TypeScript",
         path: "/assets/typescript.png",
+      },
+    ],
+  },
+  {
+    title: "Lynnime - A modern Animelist Application",
+    desc: "An IOS application featuring Jikan API where users can seamlessly browse and explore for all the latest information on anime from MyAnimeList's unofficial API. From upcoming anime to all time best rankings, users can also search for anime and get every single detailed information about the anime. The application boasts a mordern minimalistic UI and is ensured to offer the best user experience for everyone.",
+    subdesc:
+      "Singlehandedly built and designed the entire application from scratch in 3 days after learning the basic foundations of Swift UIKit. Used Alamofire library for fetching the data and followed a clean code architecture for future re-usability and updates.",
+    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+    texture: "/textures/project/project2.mp4",
+    logo: "/assets/project-logo2.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "Framer Motion",
+        path: "/assets/framer.png",
       },
     ],
   },

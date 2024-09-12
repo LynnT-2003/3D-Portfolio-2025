@@ -7,8 +7,11 @@ import { Center, OrbitControls } from "@react-three/drei";
 import { myProjects } from "@/constants/index.js";
 import CanvasLoader from "../components/CanvasLoader.jsx";
 import DemoComputer from "../components/DemoComputer.jsx";
+import MobileMockup from "../components/MobileMockup.jsx";
+import MobileMockup2 from "../components/MobileMockup2.jsx";
 
 const projectCount = myProjects.length;
+// const projectCount = 3;
 
 const Projects = () => {
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
@@ -119,11 +122,15 @@ const Projects = () => {
                   position={[-0.35, -4.4, 0]}
                   rotation={[0, -0.1, 0]}
                 >
-                  <DemoComputer texture={currentProject.texture} />
+                  {selectedProjectIndex < 3 ? (
+                    <DemoComputer texture={currentProject.texture} />
+                  ) : (
+                    <MobileMockup2 texture={currentProject.texture} />
+                  )}
                 </group>
               </Suspense>
             </Center>
-            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
+            <OrbitControls maxPolarAngle={Math.PI / 1.75} enableZoom={false} />
           </Canvas>
         </div>
       </div>
