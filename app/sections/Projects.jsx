@@ -7,7 +7,6 @@ import { Center, OrbitControls } from "@react-three/drei";
 import { myProjects } from "@/constants/index.js";
 import CanvasLoader from "../components/CanvasLoader.jsx";
 import DemoComputer from "../components/DemoComputer.jsx";
-import MobileMockup from "../components/MobileMockup.jsx";
 import MobileMockup2 from "../components/MobileMockup2.jsx";
 
 const projectCount = myProjects.length;
