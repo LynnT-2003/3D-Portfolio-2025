@@ -14,25 +14,24 @@ import "locomotive-scroll/dist/locomotive-scroll.css";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
-
   useEffect(() => {
     let locomotiveScroll;
 
     (async () => {
-      if (typeof window !== "undefined") {
-        const LocomotiveScroll = (await import("locomotive-scroll")).default;
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
 
-        locomotiveScroll = new LocomotiveScroll({
-          el: document.querySelector("[data-scroll-container]"),
-          smooth: true,
-          smartphone: { smooth: true },
-          tablet: { smooth: true },
-        });
-      }
+      locomotiveScroll = new LocomotiveScroll({
+        el: document.querySelector("[data-scroll-container]"),
+        smooth: true,
+        smartphone: { smooth: true },
+        tablet: { smooth: true },
+      });
     })();
 
     setTimeout(() => {
       setIsLoading(false);
+      document.body.style.cursor = "default";
+      window.scrollTo(0, 0);
     }, 5000);
 
     return () => {
@@ -41,7 +40,7 @@ const App = () => {
   }, []);
 
   return (
-    <main className="mx-auto">
+    <main className="mx-auto" data-scroll-container>
       <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
       </AnimatePresence>
