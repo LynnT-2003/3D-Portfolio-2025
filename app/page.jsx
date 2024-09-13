@@ -2,9 +2,9 @@
 import React from "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
-import Projects from "./sections/Projects";
-import Experience from "./sections/Experience";
-import About from "./sections/About";
+// import Projects from "./sections/Projects";
+// import Experience from "./sections/Experience";
+// import About from "./sections/About";
 // import { TextHoverEffect } from "./components/ui/text-hover-effect";
 // import { AnimatePresence } from "framer-motion";
 // import Preloader from "./components/Preloader";
@@ -45,7 +45,7 @@ const App = () => {
       {/* <AnimatePresence mode="wait">
         <Preloader />
       </AnimatePresence> */}
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       {/* <div className="flex flex-col h-screen items-center justify-center">
         <h1 className="md:text-6xl text-5xlfont-bold text-gray-500 flex items-center justify-center pt-24 ">
@@ -58,11 +58,11 @@ const App = () => {
       </div> */}
       <ShrineSection />
 
-      <div className="md:px-10">
+      {/* <div className="md:px-10">
         <About />
         <Projects />
         <Experience />
-      </div>
+      </div> */}
     </main>
   );
 };
