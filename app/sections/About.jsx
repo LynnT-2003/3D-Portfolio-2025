@@ -29,9 +29,10 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I&apos;m Lynn Thit Nyi Nyi</p>
               <p className="grid-subtext">
-                With 3 years of experience, I have greatly sharpened my skills
-                in both frontend and backend dev, creating dynamic and
-                responsive websites.
+                With 3 years of experience in Web Development and a passion in
+                application development, I have a deep understanding of the
+                latest technologies and frameworks across all Web, Android, and
+                IOS development.
               </p>
             </div>
           </div>
@@ -48,8 +49,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools
-                that allow me to build robust and scalable applications
+                With experience in a variety of languages, frameworks, and
+                tools, I am capable of adapting to any environment to come up
+                with both robust and scalable applications.
               </p>
             </div>
           </div>
@@ -104,7 +106,10 @@ const About = () => {
               <p className="grid-subtext">
                 I love solving problems and building things through code.
                 Programming isn&apos;t just my profession—it&apos;s my passion.
-                I enjoy exploring new technologies, and enhancing my skills.
+                I enjoy exploring new technologies, and enhancing my skills. So
+                far, I have worked with Next.js, React, Kotlin, Swift UIKit,
+                Golang, Sanity.io and Flutter across several of my application
+                projects.
               </p>
             </div>
           </div>
