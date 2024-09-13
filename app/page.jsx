@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-// import Navbar from "./sections/Navbar";
-// import Hero from "./sections/Hero";
-// import Projects from "./sections/Projects";
-// import Experience from "./sections/Experience";
-// import About from "./sections/About";
-// import { TextHoverEffect } from "./components/ui/text-hover-effect";
+import Navbar from "./sections/Navbar";
+import Hero from "./sections/Hero";
+import Projects from "./sections/Projects";
+import Experience from "./sections/Experience";
+import About from "./sections/About";
+import { TextHoverEffect } from "./components/ui/text-hover-effect";
 // import { AnimatePresence } from "framer-motion";
 // import Preloader from "./components/Preloader";
 import ShrineSection from "./sections/ShrineSection";
@@ -44,7 +44,7 @@ const App = () => {
     <main className="mx-auto" data-scroll-container>
       {/* <AnimatePresence mode="wait">
         <Preloader />
-      </AnimatePresence>
+      </AnimatePresence> */}
       <Navbar />
       <Hero />
       <div className="flex flex-col h-screen items-center justify-center">
@@ -55,14 +55,14 @@ const App = () => {
           Presented by:
         </h1>
         <TextHoverEffect text="LYNN THIT NYI NYI" className="py-0 my-0" />
-      </div> */}
+      </div>
       <ShrineSection />
-      {/* 
+
       <div className="md:px-10">
         <About />
         <Projects />
         <Experience />
-      </div> */}
+      </div>
     </main>
   );
 };
