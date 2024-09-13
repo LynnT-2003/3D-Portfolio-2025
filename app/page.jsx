@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-// import Navbar from "./sections/Navbar";
+import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 // import Projects from "./sections/Projects";
 // import Experience from "./sections/Experience";
@@ -45,7 +45,7 @@ const App = () => {
       {/* <AnimatePresence mode="wait">
         <Preloader />
       </AnimatePresence> */}
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <div className="flex flex-col h-screen items-center justify-center">
         <h1 className="md:text-6xl text-5xlfont-bold text-gray-500 flex items-center justify-center pt-24 ">
