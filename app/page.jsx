@@ -58,9 +58,11 @@ const App = () => {
       </div>
       <ShrineSection />
 
-      <About />
-      <Projects />
-      <Experience />
+      <div className="md:px-10">
+        {/* <About /> */}
+        <Projects />
+        <Experience />
+      </div>
     </main>
   );
 };
