@@ -18,7 +18,7 @@ const ShrineSection = () => {
             <HeroCamera>
               <Shrine scale={0.4} position={[0, -4, 0]} />
             </HeroCamera>
-            <ambientLight intensity={5} />
+            <ambientLight intensity={2} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
           </Suspense>
         </Canvas>

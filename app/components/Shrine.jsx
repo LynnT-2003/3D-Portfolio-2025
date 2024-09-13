@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 const Shrine = (props) => {
+  const group = useRef();
+
   const { nodes, materials } = useGLTF("/models/shrine.glb");
+
+  useGSAP(() => {
+    gsap.from(group.current.rotation, {
+      y: Math.PI / 2,
+      duration: 1,
+      ease: "power3.out",
+    });
+  }, []);
+
   return (
-    <group {...props} dispose={null}>
+    <group ref={group} {...props} dispose={null}>
       <group scale={1}>
         <mesh
           castShadow
