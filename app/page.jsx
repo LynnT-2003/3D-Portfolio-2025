@@ -42,7 +42,7 @@ const App = () => {
 
   return (
     <main className="mx-auto" data-scroll-container>
-      <AnimatePresence mode="wait">
+      {/* <AnimatePresence mode="wait">
         <Preloader />
       </AnimatePresence>
       <Navbar />
@@ -55,14 +55,14 @@ const App = () => {
           Presented by:
         </h1>
         <TextHoverEffect text="LYNN THIT NYI NYI" className="py-0 my-0" />
-      </div>
+      </div> */}
       <ShrineSection />
-
+      {/* 
       <div className="md:px-10">
         <About />
         <Projects />
         <Experience />
-      </div>
+      </div> */}
     </main>
   );
 };
