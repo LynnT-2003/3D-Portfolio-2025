@@ -1,50 +1,50 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
-// import About from "./sections/About";
+import About from "./sections/About";
 import { TextHoverEffect } from "./components/ui/text-hover-effect";
-// import { AnimatePresence } from "framer-motion";
-// import Preloader from "./components/Preloader";
+import { AnimatePresence } from "framer-motion";
+import Preloader from "./components/Preloader";
 import ShrineSection from "./sections/ShrineSection";
 
 import "locomotive-scroll/dist/locomotive-scroll.css";
 
 const App = () => {
-  // const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
-  // useEffect(() => {
-  //   let locomotiveScroll;
+  useEffect(() => {
+    let locomotiveScroll;
 
-  //   (async () => {
-  //     if (typeof window !== "undefined") {
-  //       const LocomotiveScroll = (await import("locomotive-scroll")).default;
+    (async () => {
+      if (typeof window !== "undefined") {
+        const LocomotiveScroll = (await import("locomotive-scroll")).default;
 
-  //       locomotiveScroll = new LocomotiveScroll({
-  //         el: document.querySelector("[data-scroll-container]"),
-  //         smooth: true,
-  //         smartphone: { smooth: true },
-  //         tablet: { smooth: true },
-  //       });
-  //     }
-  //   })();
+        locomotiveScroll = new LocomotiveScroll({
+          el: document.querySelector("[data-scroll-container]"),
+          smooth: true,
+          smartphone: { smooth: true },
+          tablet: { smooth: true },
+        });
+      }
+    })();
 
-  //   setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 5000);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 5000);
 
-  //   return () => {
-  //     if (locomotiveScroll) locomotiveScroll.destroy();
-  //   };
-  // }, []);
+    return () => {
+      if (locomotiveScroll) locomotiveScroll.destroy();
+    };
+  }, []);
 
   return (
     <main className="mx-auto">
-      {/* <AnimatePresence mode="wait">
-        <Preloader />
-      </AnimatePresence> */}
+      <AnimatePresence mode="wait">
+        {isLoading && <Preloader />}
+      </AnimatePresence>
       <Navbar />
       <Hero />
       <div className="flex flex-col h-screen items-center justify-center">
