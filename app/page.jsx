@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
