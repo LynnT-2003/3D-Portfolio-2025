@@ -1,5 +1,7 @@
 import React from "react";
 import Shrine from "../components/Shrine";
+// import Gojo from "../components/Gojo";
+// import Room from "../components/Room";
 import { Leva } from "leva";
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
@@ -17,6 +19,8 @@ const ShrineSection = () => {
             <PerspectiveCamera makeDefault />
             <HeroCamera>
               <Shrine scale={0.4} position={[0, -4, 0]} />
+              {/* <Gojo /> */}
+              {/* <Room scale={2} position={[0, -4, 0]} /> */}
             </HeroCamera>
             <ambientLight intensity={2} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
