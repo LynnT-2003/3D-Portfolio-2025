@@ -8,6 +8,7 @@ import About from "./sections/About";
 import { TextHoverEffect } from "./components/ui/text-hover-effect";
 import { AnimatePresence } from "framer-motion";
 import Preloader from "./components/Preloader";
+import ShrineSection from "./sections/ShrineSection";
 
 import "locomotive-scroll/dist/locomotive-scroll.css";
 
@@ -57,6 +58,7 @@ const App = () => {
         </h1>
         <TextHoverEffect text="LYNN THIT NYI NYI" className="py-0 my-0" />
       </div>
+      <ShrineSection />
 
       <div className="md:px-10">
         <About />
