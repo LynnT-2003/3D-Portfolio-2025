@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
@@ -13,7 +13,7 @@ import ShrineSection from "./sections/ShrineSection";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
   // useEffect(() => {
   //   let locomotiveScroll;
@@ -43,7 +43,7 @@ const App = () => {
   return (
     <main className="mx-auto" data-scroll-container>
       <AnimatePresence mode="wait">
-        {isLoading && <Preloader />}
+        <Preloader />
       </AnimatePresence>
       <Navbar />
       <Hero />
