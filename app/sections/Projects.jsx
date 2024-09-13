@@ -10,7 +10,6 @@ import DemoComputer from "../components/DemoComputer.jsx";
 import MobileMockup2 from "../components/MobileMockup2.jsx";
 
 const projectCount = myProjects.length;
-// const projectCount = 3;
 
 const Projects = () => {
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
