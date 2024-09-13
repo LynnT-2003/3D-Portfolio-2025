@@ -15,30 +15,30 @@ import "locomotive-scroll/dist/locomotive-scroll.css";
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    let locomotiveScroll;
+  // useEffect(() => {
+  //   let locomotiveScroll;
 
-    (async () => {
-      if (typeof window !== "undefined") {
-        const LocomotiveScroll = (await import("locomotive-scroll")).default;
+  //   (async () => {
+  //     if (typeof window !== "undefined") {
+  //       const LocomotiveScroll = (await import("locomotive-scroll")).default;
 
-        locomotiveScroll = new LocomotiveScroll({
-          el: document.querySelector("[data-scroll-container]"),
-          smooth: true,
-          smartphone: { smooth: true },
-          tablet: { smooth: true },
-        });
-      }
-    })();
+  //       locomotiveScroll = new LocomotiveScroll({
+  //         el: document.querySelector("[data-scroll-container]"),
+  //         smooth: true,
+  //         smartphone: { smooth: true },
+  //         tablet: { smooth: true },
+  //       });
+  //     }
+  //   })();
 
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 5000);
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 5000);
 
-    return () => {
-      if (locomotiveScroll) locomotiveScroll.destroy();
-    };
-  }, []);
+  //   return () => {
+  //     if (locomotiveScroll) locomotiveScroll.destroy();
+  //   };
+  // }, []);
 
   return (
     <main className="mx-auto" data-scroll-container>
