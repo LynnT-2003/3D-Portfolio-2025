@@ -19,14 +19,16 @@ const App = () => {
     let locomotiveScroll;
 
     (async () => {
-      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+      if (typeof window !== "undefined") {
+        const LocomotiveScroll = (await import("locomotive-scroll")).default;
 
-      locomotiveScroll = new LocomotiveScroll({
-        el: document.querySelector("[data-scroll-container]"),
-        smooth: true,
-        smartphone: { smooth: true },
-        tablet: { smooth: true },
-      });
+        locomotiveScroll = new LocomotiveScroll({
+          el: document.querySelector("[data-scroll-container]"),
+          smooth: true,
+          smartphone: { smooth: true },
+          tablet: { smooth: true },
+        });
+      }
     })();
 
     setTimeout(() => {
