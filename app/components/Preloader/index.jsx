@@ -16,7 +16,16 @@ export default function Index() {
   const [dimension, setDimension] = useState({ width: 0, height: 0 });
 
   useEffect(() => {
-    setDimension({ width: window.innerWidth, height: window.innerHeight });
+    if (typeof window !== "undefined") {
+      const handleResize = () => {
+        setDimension({ width: window.innerWidth, height: window.innerHeight });
+      };
+      window.addEventListener("resize", handleResize);
+      handleResize();
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }
   }, []);
 
   useEffect(() => {
