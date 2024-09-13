@@ -31,11 +31,11 @@ const ShrineSection = () => {
             Malevolent Kitchen: Let Me Cook
           </h2>
           <p className="text-lg font-light text-gray-500">
-            Inspired by Sukuna's Malevolent Shrine, Malevolent Kitchen's
-            guaranteed-code ability allows the user to relentlessly produce
-            high-quality code until nothing but dust remains of all the bugs
-            that have been caught in its effective range, via two types of
-            coding attacks: Design and Decode.
+            Inspired by Sukuna&apos;s Malevolent Shrine, Malevolent
+            Kitchen&apos;s guaranteed-code ability allows the user to
+            relentlessly produce high-quality code until nothing but dust
+            remains of all the bugs that have been caught in its effective
+            range, via two types of coding attacks: Design and Decode.
           </p>
           <p className="text-sm font-light text-gray-500 mt-6">
             The user is able to set which of the two attacks to use against

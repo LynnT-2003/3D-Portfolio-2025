@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { useMediaQuery } from "react-responsive";
 import { PerspectiveCamera } from "@react-three/drei";
-import CanvasLoader from "../components/CanvasLoader.jsx";
+// import CanvasLoader from "../components/CanvasLoader.jsx";
 import { calculateSizes } from "@/constants";
 
 // import Cube from "../components/Cube.jsx";
