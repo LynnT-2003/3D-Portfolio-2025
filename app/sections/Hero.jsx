@@ -35,7 +35,7 @@ const Hero = () => {
 
       <div className="w-full h-full pb-0 absolute inset-0">
         <Canvas className="w-full h-full">
-          <Suspense fallback={<CanvasLoader />}>
+          <Suspense>
             <Leva hidden />
             <PerspectiveCamera makeDefault position={[0, 0, 500]} />
 
