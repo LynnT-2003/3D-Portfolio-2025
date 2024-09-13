@@ -41,7 +41,7 @@ const App = () => {
   // }, []);
 
   return (
-    <main className="mx-auto" data-scroll-container>
+    <main className="mx-auto">
       {/* <AnimatePresence mode="wait">
         <Preloader />
       </AnimatePresence> */}
