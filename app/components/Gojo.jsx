@@ -6,7 +6,7 @@ Source: https://sketchfab.com/3d-models/gojo-wip-40df4edf1b624b0b97da097e9b5b85c
 Title: Gojo WIP
 */
 
-import React, { useRef } from "react";
+import React from "react";
 import { useGLTF } from "@react-three/drei";
 
 const Gojo = (props) => {
