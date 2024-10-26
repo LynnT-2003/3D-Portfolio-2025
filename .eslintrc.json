@@ -1,8 +1,3 @@
-// {
-//   "extends": ["next/core-web-vitals", "next/typescript"],
-//   "plugins": ["react", "react-hooks", "react-refresh", "@react-three"]
-// }
-
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
   "plugins": ["react", "react-hooks", "react-refresh", "@react-three"],
@@ -31,7 +26,8 @@
       { "allowConstantExport": true }
     ],
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "no-unused-vars": "off" // Disable the no-unused-vars rule
   },
   "ignorePatterns": ["dist"]
 }
