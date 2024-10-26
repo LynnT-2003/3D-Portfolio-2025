@@ -5,7 +5,7 @@ import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 import Showcase from "./sections/Showcase";
-import About from "./sections/About";
+// import About from "./sections/About";
 import { TextHoverEffect } from "./components/ui/text-hover-effect";
 import { AnimatePresence } from "framer-motion";
 import Preloader from "./components/Preloader";
@@ -59,7 +59,7 @@ const App = () => {
       <ShrineSection />
 
       <div className="md:px-10">
-        <About />
+        {/* <About /> */}
         <Projects />
         <Experience />
         <Showcase />
