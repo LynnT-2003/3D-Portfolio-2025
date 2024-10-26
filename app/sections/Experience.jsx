@@ -10,7 +10,7 @@ const WorkExperience = () => {
   const [animationName, setAnimationName] = useState("idle");
 
   return (
-    <section className="c-space my-20" id="work">
+    <section className="c-space my-20 mb-[400px]" id="work">
       <div className="w-full max-h-screen text-white-600">
         <p className="head-text ml-10">My Work Experience</p>
 
