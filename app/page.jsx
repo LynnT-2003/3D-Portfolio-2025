@@ -45,7 +45,7 @@ const App = () => {
         {isLoading && <Preloader />}
       </AnimatePresence>
       <Navbar />
-      <Hero />
+      {/* <Hero /> */}
       <div className="flex flex-col h-screen items-center justify-center">
         <h1 className="md:text-6xl text-5xlfont-bold text-gray-500 flex items-center justify-center pt-24 ">
           Welcome to my Portfolio:

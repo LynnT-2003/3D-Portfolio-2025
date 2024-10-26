@@ -11,7 +11,7 @@ const WorkExperience = () => {
 
   return (
     <section className="c-space my-20" id="work">
-      <div className="w-full text-white-600">
+      <div className="w-full max-h-screen text-white-600">
         <p className="head-text ml-10">My Work Experience</p>
 
         <div className="work-container">

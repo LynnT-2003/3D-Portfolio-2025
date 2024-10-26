@@ -31,15 +31,15 @@ const ShrineSection = () => {
       {/* Right section - Description */}
       <div className="mt-16 md:mt-0 w-full lg:w-1/3 h-1/2 lg:h-full p-6 flex justify-center items-center">
         <div>
-          <h2 className="text-5xl text-white font-bold mb-8">
-            Malevolent Kitchen: Let Me Cook
+          <h2 className="text-5xl font-sans leading-snug font-light text-white font-bold mb-8">
+            Malevolent Kitchen: Watch Me Cook & Code !
           </h2>
-          <p className="text-lg font-light text-gray-500">
+          <p className="text-xl font-sans font-extralight  text-gray-500">
             Inspired by Sukuna&apos;s Malevolent Shrine, Malevolent
-            Kitchen&apos;s guaranteed-code ability allows the user to
-            relentlessly produce high-quality code until nothing but dust
-            remains of all the bugs that have been caught in its effective
-            range, via two types of coding attacks: Design and Decode.
+            Kitchen&apos;s guaranteed-code ability allows me to relentlessly
+            produce high-quality code until nothing but dust remains of all the
+            bugs that have been caught in its effective range, via two types of
+            coding attacks: Design and Decode.
           </p>
           <p className="text-sm font-light text-gray-500 mt-6">
             The user is able to set which of the two attacks to use against

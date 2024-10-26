@@ -62,8 +62,8 @@ export const myProjects = [
     desc: "Maha Vertex (MV) is a realtor company in Bangkok, targeting customers from Myanmar. This project involves creating a full mobile-responsive and user-friendly website to enhance MV's online presence and streamline property listings, consequently improving property management and customer interactions. Overall the solution offers a promising seamless experience for both MV and its clients.",
     subdesc:
       "Led the development of a real estate web application, utilizing Next.js for the frontend and GoLang with Sanity.io for the backend. Integrated Firebase for secure user authentication and different services from Google Maps API for location services Contributed to expanding Mahar-Vertex's reach and improving service delivery through a seamless and enriched user interface",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
-    texture: "/textures/project/project1.mp4",
+    href: "https://www.mahavertex.com/",
+    texture: "/textures/project/mv-showcase.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
       backgroundColor: "#2A1816",
@@ -73,24 +73,29 @@ export const myProjects = [
     spotlight: "/assets/spotlight1.png",
     tags: [
       {
+        id: 2,
+        name: "NextJS",
+        path: "/assets/nextjs.jpg",
+      },
+      {
         id: 1,
         name: "React.js",
         path: "/assets/react.svg",
       },
       {
-        id: 2,
+        id: 3,
         name: "TailwindCSS",
         path: "assets/tailwindcss.png",
       },
       {
-        id: 3,
+        id: 4,
         name: "TypeScript",
         path: "/assets/typescript.png",
       },
       {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        id: 5,
+        name: "Sanity Studio",
+        path: "/assets/sanity.png",
       },
     ],
   },
@@ -99,7 +104,7 @@ export const myProjects = [
     desc: "TBHChat is a chatbot solution for Facebook Messenger that simplifies finding your dream smartphone by offering local prices and product recommendations. Mobile shops can easily update their prices through our CMS, ensuring that the chatbot always provides the latest specs and performance insights, helping customers make informed purchasing decisions effortlessly.",
     subdesc:
       "Singlehandedly led and deployed dynamic frontend pages and backend infrastructure for the chatbot using Next.js. Created and managed a database of 500+ smartphones with 17 entities each, with an admin panel dashboard with Firebase Authentication for secure admin access. Contributed towards the development of the chatbot to recognize and handle 5 different intents with average response times of 2-5 seconds for each request using Glitch and Wit.AI",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+    href: "https://tbh-chatbot-product-page.vercel.app/",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
@@ -110,6 +115,11 @@ export const myProjects = [
     spotlight: "/assets/spotlight2.png",
     tags: [
       {
+        id: 2,
+        name: "NextJS",
+        path: "/assets/nextjs.jpg",
+      },
+      {
         id: 1,
         name: "React.js",
         path: "/assets/react.svg",
@@ -120,14 +130,14 @@ export const myProjects = [
         path: "assets/tailwindcss.png",
       },
       {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        id: 2,
+        name: "MongoDB",
+        path: "/assets/mongodb.png",
       },
       {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        id: 2,
+        name: "Firebase",
+        path: "/assets/firebase.png",
       },
     ],
   },
@@ -136,8 +146,8 @@ export const myProjects = [
     desc: "A fully functional E-Commerce Website with a user-friendly interface. The platform supports real time payment system and an admin panel dashboard for all purchase orders, customer emails, shipment details and more. The platform is powered by a customized CMS that allows easy management of products, banners, and latest information.",
     subdesc:
       "Powered by React for Frontend, Sanity.io CMS for backend and Stripe for payments. Browse products by category or search for specific products. View detailed product information, including images, descriptions, and prices. Add products to a shopping cart and update quantities as needed. Securely process payments using the Stripe payment processing API. Receive confirmation of successful orders via email.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
-    texture: "/textures/project/project3.mp4",
+    href: "https://ecommerce-sanity-stripe-lynnt-2003.vercel.app/",
+    texture: "/textures/project/store.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
@@ -160,8 +170,13 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "Sanity Studio",
+        path: "/assets/sanity.png",
+      },
+      {
+        id: 3,
+        name: "Stripe",
+        path: "/assets/stripe.png",
       },
     ],
   },
@@ -170,8 +185,8 @@ export const myProjects = [
     desc: "An IOS application featuring Jikan API where users can seamlessly browse and explore for all the latest information on anime from MyAnimeList's unofficial API. From upcoming anime to all time best rankings, users can also search for anime and get every single detailed information about the anime. The application boasts a mordern minimalistic UI and is ensured to offer the best user experience for everyone.",
     subdesc:
       "Singlehandedly built and designed the entire application from scratch in 3 days after learning the basic foundations of Swift UIKit. Used Alamofire library for fetching the data and followed a clean code architecture for future re-usability and updates.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
-    texture: "/textures/project/project2.mp4",
+    href: "https://github.com/LynnT-2003/Lynnime-iOS",
+    texture: "/textures/project/lynnime.MOV",
     logo: "/assets/project-logo2.png",
     logoStyle: {
       backgroundColor: "#13202F",
@@ -182,23 +197,13 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "Swift UIKit",
+        path: "/assets/swift.png",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Sanity Studio",
+        path: "/assets/sanity.png",
       },
     ],
   },
@@ -277,42 +282,52 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "The Grand Dental",
-    pos: "Lead Frontend Developer",
-    duration: "2024 - Present",
+    name: "Baksters Co., Ltd.",
+    pos: "Intern / Part-Time Developer",
+    duration: "Oct 2024 - Present",
     title:
-      "Primarily leading the development in the Frontend department. My role is to build and maintain the frontend of the website according to the demand from both client and designers.",
-    icon: "/assets/framer.svg",
+      "Responsible for the development of an image generation web application project that allows users to generate images based on their prompts and also allows users to upload their own images where they are modified using custom trained models from the team. My role is to develop and maintain a seamless pipelined workflow between the Frontend and the Backend where images are genereted using State-Of-the-Art Diffusion Models.",
+    icon: "/assets/work/baksters.png",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Mahar-Vertex Real Estate",
-    pos: "Lead Frontend Developer",
-    duration: "2024 - Present",
+    name: "BehindTrader",
+    pos: "Chief Technology Officer",
+    duration: "Oct 2024 - Present",
     title:
-      "Leading the Frontend team while simultaneously working with Backend roles. My role is to build the frontend according to the designs given, and making it fully mobile-responsive.",
-    icon: "/assets/figma.svg",
+      "Responsible for all technical and operational aspects of our startup, which currently has almost 200 clients, as CTO. I am also responsible for the launch of our first fully functional web platform for our clients, covering services from CopyTrade, Signal Rooms, Education Sections, and Trading Bot Development. My role is to be able to effectively spearhead our startup's scalability to be able to support our growing audience, while keeping the company's mission on track.",
+    icon: "/assets/work/behindtrader.jpeg",
+    animation: "victory",
+  },
+  {
+    id: 4,
+    name: "BehindTrader",
+    pos: "MQL5 Trading Bot Developer",
+    duration: "July 2024 - Present",
+    title:
+      "Developed an automated Expert Advisor Trading bot on MetaTrader, capable of serving concurrent clients. The bot is designed to execute buy/sell orders and trades algorithmically all on its own based on given parameters & strategies.",
+    icon: "/assets/work/behindtrader.jpeg",
     animation: "clapping",
   },
   {
     id: 3,
-    name: "BehindTrader",
-    pos: "MQL5 Trading Bot Developer",
-    duration: "2024 - Present",
+    name: "Maha-Vertex Real Estate",
+    pos: "Part-Time Lead Developer",
+    duration: "May 2024 - Oct 2024",
     title:
-      "Developed an automated Expert Advisor Trading bot on MetaTrader, capable of serving concurrent clients. The bot is designed to execute buy/sell orders and trades algorithmically.",
-    icon: "/assets/figma.svg",
+      "Spearheaded the development of the company's first ever website. Led the development of the frontend while simultaneously working in backend roles, ensuring that the business requirements are always met through bi-weekly sprint meetings & agile methodologies.",
+    icon: "/assets/work/mv.jpeg",
     animation: "clapping",
   },
   {
-    id: 4,
+    id: 5,
     name: "TBH Chatbot",
-    pos: "Full Stack Web Developer & Chatbot Developer",
-    duration: "2023 - 2024",
+    pos: "Part-Time Fullstack Developer",
+    duration: "Nov 2023 - April 2024",
     title:
-      "Singlehandedly led the development of the backend infrastructure & database design for the chatbot. Also developed dynamic web urls to showcase product details through the chatbot.",
-    icon: "/assets/notion.svg",
+      "Singlehandedly developed the architecture of the backend infrastructure & database design, essential for the chatbot. Also developed dynamic frontend webpages to showcase product details through the chatbot through URLs.",
+    icon: "/assets/work/tbh.jpg",
     animation: "salute",
   },
 ];
