@@ -33,7 +33,7 @@ const App = () => {
       setIsLoading(false);
       document.body.style.cursor = "default";
       window.scrollTo(0, 0);
-    }, 5000);
+    }, 3000);
 
     return () => {
       if (locomotiveScroll) locomotiveScroll.destroy();
@@ -45,10 +45,10 @@ const App = () => {
       <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
       </AnimatePresence>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Hero /> */}
       <div className="flex flex-col h-screen items-center justify-center">
-        <h1 className="md:text-6xl text-5xlfont-bold text-gray-500 flex items-center justify-center pt-24 ">
+        <h1 className="md:text-6xl text-5xlfont-bold text-gray-500 flex items-center justify-center pt-0 ">
           Welcome to my Portfolio:
         </h1>
         <h1 className="text-4xl font-thin text-gray-500 flex items-center justify-center pt-12 ">
